@@ -24,5 +24,5 @@ let bool2=false
 
 console.log(String(bool1))//changes to true and false as string
 console.log(String(bool2))
-console.log(Number(bool1))//changes to respective number values
+console.log(Number(bool1))//changes to respective number values i.e true to 1 and false to 0
 console.log(Number(bool2))
