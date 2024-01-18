@@ -22,3 +22,4 @@ console.log()
 
 // strict check i.e === works such that it does'nt converts anything and treats different datatypes as different
 console.log("2"===2)
+console.log("2"==2)
