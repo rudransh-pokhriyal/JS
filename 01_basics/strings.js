@@ -7,7 +7,11 @@ console.log(`My name is ${name} and my age is ${v}`);
 
 //if we use new keyword then we can create a string which is fundamentally an object with key value pairs where key is indices and value is a character.This gives us the capability to use many inbuilt functions most of which are same as Java but we can use these functions on normal strings declared in variables and constants
 
-let nam=new String("Rudransh Pokhriyal")
-console.log(nam[0])
+let nam=new String(" Rudransh Pokhriyal ")
+console.log(nam[1])
 console.log(nam.length)
-console.log(nam.charAt(0))
+console.log(nam.charAt(1))
+console.log(nam.indexOf('a'))
+console.log(nam.trim())
+nam=nam.trim()
+console.log(nam.split(" "))//seprates the contents using the seprator and place it in a array
