@@ -15,3 +15,5 @@ console.log(nam.indexOf('a'))
 console.log(nam.trim())
 nam=nam.trim()
 console.log(nam.split(" "))//seprates the contents using the seprator and place it in a array
+
+//splice is remaining
