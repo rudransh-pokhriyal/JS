@@ -16,4 +16,10 @@ console.log(nam.trim())
 nam=nam.trim()
 console.log(nam.split(" "))//seprates the contents using the seprator and place it in a array
 
-//splice is remaining
+//slice method takes two parameters: the starting index and the ending index (exclusive). If no end index is specified, the slice will include all characters from the start index to the end of the string
+//startIndex:If negative, it is treated as counting from the end of the string. If omitted, it starts from index 0.
+//endIndex:If negative, it is treated as counting from the end of the string. If omitted, it extracts all characters from the start index to the end of the string
+
+console.log(nam.slice(1))
+console.log(nam.slice(1,7))
+console.log(nam.slice(-4))
