@@ -14,3 +14,4 @@ console.log(Math.max(num,deci,num2))
 console.log(Math.min(num,deci,num2))
 
 //Math.random function
+console.log(Math.random())
