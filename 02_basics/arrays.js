@@ -41,3 +41,13 @@ let a3=[5,6]
 let a_merg=[...a1,...a2,...a3]
 console.log(a_merg)
 console.log()
+
+console.log("----FLAT------")
+//we can have multiple arrays inside an array so if we want to convert it to a single array with all elements
+let ar_mul=[1,2,3, [3,4,5, [6,7,8] ],[9,10,11] ] 
+console.log(ar_mul.flat(Infinity))
+console.log()
+
+//we have Array class functions for use in backend operations like when we recieve data from server we need to check whether it as an array or we can generate arrays from some info
+console.log(Array.isArray(ar_mul));
+console.log(Array.of(1,3,"Array","is formed by data"));// same goes for Array.from
