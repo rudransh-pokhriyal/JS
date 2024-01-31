@@ -44,3 +44,21 @@ function add(num1=1,num2=1)
 
 console.log(add())
 console.log(add(1,4))
+
+//REST OPERATOR is used to pass multiple values as an array to single variable in a function
+function mul(n1,...n2)
+{
+    return n2
+}
+
+console.log(mul(2,4,5,6,7,8))//2 goes in n1 and rest goes to n2
+
+//Arrays in functions
+const ar=[2,4,5,8]
+
+function array(arr)
+{
+    return arr[0]
+}
+
+console.log(array(ar))
