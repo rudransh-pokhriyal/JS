@@ -46,12 +46,14 @@ console.log(add())
 console.log(add(1,4))
 
 //REST OPERATOR is used to pass multiple values as an array to single variable in a function
+console.log("REST OPERATOR")
 function mul(n1,...n2)
 {
     return n2
 }
 
 console.log(mul(2,4,5,6,7,8))//2 goes in n1 and rest goes to n2
+console.log()
 
 //Arrays in functions
 const ar=[2,4,5,8]
@@ -62,3 +64,17 @@ function array(arr)
 }
 
 console.log(array(ar))
+console.log()
+
+//objects in arrays
+const user={
+    username:"Rudi65",
+    location:"Asia/Pacific"
+}
+
+function user_info(obj)
+{
+    console.log(`username is ${obj.username} and location of user is ${obj.location}`)
+}
+
+user_info(user)
