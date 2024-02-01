@@ -36,3 +36,24 @@ const useSymbol={
     Sym:"KeySymbol"
 }
 console.log(typeof useSymbol["Sym"])// will display value correctly but will not work as symbol 
+console.log()
+console.log("------FREEZING-------")
+
+//object freezing helps to restrict any changes in objects
+User1.isLoggedin=true
+Object.freeze(User2)
+User2.isLoggedin=false
+
+console.log(User1["isLoggedin"])
+console.log(User2["isLoggedin"])
+
+console.log()
+console.log("-----NESTING------")
+//Nested Objects
+const Nested={
+    fullname:{
+        firstname:"Rudransh",
+        lastname:"Pokhriyal"
+    }
+}
+console.log(Nested.fullname.lastname)
