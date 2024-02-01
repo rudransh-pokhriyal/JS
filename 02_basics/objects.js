@@ -11,12 +11,13 @@ const User1={
 }
 
 //2 way
-const User2=new Object(
-{name:"Raj Saxena",
-"locat ion":"delhi",
-age:25,
-isLoggedin:true,
-LastLoginDays:["tuesday","friday","saturday"]})
+const User2=new Object()
+User2.name="Raj Saxena"
+User2.location="delhi"
+User2.age=25,
+User2.isLoggedin=true,
+User2.LastLoginDays=["tuesday","friday","saturday"]
+
 
 //Accesing values using keys also has 2 ways
 //Way 1 (.) dot operator
