@@ -66,7 +66,7 @@ function array(arr)
 console.log(array(ar))
 console.log()
 
-//objects in arrays
+//objects in functions
 const user={
     username:"Rudi65",
     location:"Asia/Pacific"
