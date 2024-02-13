@@ -50,3 +50,28 @@ console.log();
 
 console.log("-------FOR EACH----------");
 //in for each we have to write a function
+
+//in for each loop we have a callback function which can be defined in the loop or somewhere in code file this function determines the working of loop over arrays and arrays of objects
+
+arr.forEach(function traverse(item,index){
+    console.log(item,index)
+})
+
+const obj_arr=[
+    {
+        language:"Javascript",
+        filename:"js"
+    },
+    {
+        language:"Python",
+        filename:"py"
+    },
+    {
+        language:"Java",
+        filename:"java"
+    }
+]
+// we generally use arrow function in for each loop
+obj_arr.forEach((item)=>{
+    console.log(item.filename)
+})
