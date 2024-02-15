@@ -15,3 +15,6 @@ console.log(Math.min(num,deci,num2))
 
 //Math.random function --> it returns and floating pointing number between 0 and 1(exclusive)
 console.log(Math.random())
+
+// to generate a random integer between a range we can
+console.log(Math.floor(Math.random()*10) + 1) 
