@@ -13,5 +13,5 @@ console.log(Math.sqrt(num2));
 console.log(Math.max(num,deci,num2))
 console.log(Math.min(num,deci,num2))
 
-//Math.random function
+//Math.random function --> it returns and floating pointing number between 0 and 1(exclusive)
 console.log(Math.random())
