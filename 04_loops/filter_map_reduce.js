@@ -14,3 +14,19 @@ new_nums1=arr.filter(function (num){
 */
 
 console.log(new_nums1)
+
+
+//map is used to perform some operations over the array data
+let new_nums2=arr.map((num)=> num*10+1)
+
+//alternatives to above
+/* new_nums2=arr.map((num)=>{
+    return num*10+1
+})
+
+new_nums2=arr.map(function (num){
+    return num*10+1
+})
+*/
+
+console.log(new_nums2)
