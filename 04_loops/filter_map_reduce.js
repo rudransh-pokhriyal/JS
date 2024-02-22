@@ -30,3 +30,9 @@ new_nums2=arr.map(function (num){
 */
 
 console.log(new_nums2)
+
+//reduce is also used for same purpose as map but here we have an extra predefined variable accumulator that works such that first it stores initial value in it and then it stores the result of the operation
+let initialVal=0
+let sum_arr=arr.reduce((accumulator,num)=> accumulator+num , initialVal)
+
+console.log(sum_arr)
