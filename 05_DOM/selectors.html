@@ -8,7 +8,7 @@
 <body>
     <div class="main-text">
         <p class="text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><br/>
-        <p id="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur?</p>
+        <p id="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur? <span style="display:none">fuck off this is hidden</span></p>
     </div>
 </body>
 <script>
@@ -21,5 +21,21 @@
     document.body.style.color='white';
     document.getElementById('text2').style.backgroundColor='red';
     document.getElementById('text2').style.padding='10px';
+
+    //handling the text content in DOM
+    console.log(document.getElementById('text2').innerHTML)//shows not only text but embedded html also
+    console.log(document.getElementById('text2').innerText)// shows only content that is not hidden
+    console.log(document.getElementById('text2').textContent) // shows hidden content also
+
+    //query selectors
+    console.log(document.querySelector('p'))
+    console.log(document.querySelector('.text1'))
+    console.log(document.querySelector('#text2'))
+    console.log(document.querySelectorAll('p'))//returns a node list with all the occurences of paragraph element
+
+    //Nodelist
+    const paragraph=document.querySelectorAll('p')
+    paragraph[0].style.backgroundColor='green'
+    
 </script>
 </html>
