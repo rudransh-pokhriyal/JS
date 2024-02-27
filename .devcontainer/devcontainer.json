@@ -8,7 +8,8 @@
 		"vscode": {
 			"extensions": [
 				"ritwickdey.LiveServer",
-				"dbaeumer.vscode-eslint"
+				"dbaeumer.vscode-eslint",
+				"mgmcdermott.vscode-language-babel"
 			]
 		}
 	}
