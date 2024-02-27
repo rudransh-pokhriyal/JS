@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM|Parent Child</title>
+</head>
+<body>
+    <div id="parent">
+        <div id="child1">
+            <p>Lorem Ipsum</p>
+        </div>
+        <ol id="child2">
+            <li>Java</li>
+            <li>Python</li>
+            <li>Javascript</li>
+        </ol>
+    </div>
+</body>
+<script>
+    console.log(document.getElementById('parent'))
+    const parent=document.getElementById('parent');
+
+    console.log(document.getElementById('parent').childElementCount) //returns the count of child nodes
+
+    console.log(document.getElementById('parent').children) //gives all the children of an element in HTML collection
+</script>
+</html>
