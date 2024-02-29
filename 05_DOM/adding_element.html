@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adding elements|DOM model</title>
 </head>
-<body>
+<body style="background-color: black; color: white;">
     <div id="parent">
     </div>
 </body>
 <script>
+    //creating an element
+    const para1=document.createElement('p')
+    //adding text content to it
+    para1.innerText="I have created a paragraph element with the help of createElement in DOM"
+    //to attach to it to the file we use appendChild
+    document.getElementById('parent').appendChild(para1);
+
     
 </script>
 </html>
