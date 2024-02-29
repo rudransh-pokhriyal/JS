@@ -7,6 +7,7 @@
 </head>
 <body style="background-color: black; color: white;">
     <div id="parent">
+        <ul ></ul>
     </div>
 </body>
 <script>
@@ -17,6 +18,25 @@
     //to attach to it to the file we use appendChild
     document.getElementById('parent').appendChild(para1);
 
-    
-</script>
+    para1.id="child1"
+
+    const list=document.createElement('ol')
+    list.id='parent-list'
+    document.getElementById('parent').appendChild(list)
+    list.setAttribute('type','I')
+    const item1=document.createElement('li')
+    const item2=document.createElement('li')
+    const item3=document.createElement('li')
+    const text1=document.createTextNode('createElement')
+    const text2=document.createTextNode('appendChild')
+    const text3=document.createTextNode('CreateTextNode')
+
+    item1.appendChild(text1)
+    item2.appendChild(text2)
+    item3.appendChild(text3)
+
+    document.getElementById('parent-list').appendChild(item1);
+    document.getElementById('parent-list').appendChild(item2);
+    document.getElementById('parent-list').appendChild(item3);
+    </script>
 </html>
