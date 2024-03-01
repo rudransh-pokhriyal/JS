@@ -14,8 +14,12 @@
     </ol>
 </body>
 <script>
+    //way1
    const li1= document.createElement('li')
    li1.appendChild(document.createTextNode('Javascript'))
    document.getElementById('li1').replaceWith(li1)
+
+   //way2
+   document.getElementById('li2').outerHTML="<li> Python </li>"
 </script>
 </html>
