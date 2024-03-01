@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit remove|DOM</title>
+</head>
+<body>
+    <ol>
+        <li id="li1">Hello World</li>
+        <li id="li2">Recommended</li>
+        <li id="li3">Java</li>
+        <li id="li4">Remove</li>
+    </ol>
+</body>
+<script>
+   const li1= document.createElement('li')
+   li1.appendChild(document.createTextNode('Javascript'))
+   document.getElementById('li1').replaceWith(li1)
+</script>
+</html>
