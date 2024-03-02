@@ -105,4 +105,4 @@ Congratulations! You've successfully created a pull request for the **JavaScript
 
 ## Authors
 
-* **Rudransh Pokhriyal** - *CSE Student and passionate Developer* - [Rudransh Pokhriyal](https://github.com/rudransh-pokhriyal) - *Built the Whole Repo from Ground Zero*
+* **[Rudransh Pokhriyal](https://github.com/rudransh-pokhriyal)** - *CSE Student and passionate Developer*
